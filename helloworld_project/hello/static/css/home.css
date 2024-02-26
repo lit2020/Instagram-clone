@@ -1,0 +1,351 @@
+body {
+   display: flex;
+   flex-direction: row;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+   display: flex;
+   flex-direction: column;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary .container-fluid {
+   width: 244px;
+   height: 100%;
+   padding: 0px 12px;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 100%;
+   justify-content: left;
+   align-items: flex-start;
+   /* 왼쪽 정렬 */
+   top: 0;
+   left: 0;
+   background-color: #FAFAFA;
+}
+
+.navbar-brand {
+   width: 220px;
+   height: 92px;
+   padding-left: 12px;
+   padding-right: 12px;
+   padding-top: 25px;
+   padding-bottom: 35px;
+}
+
+.navbar-brand img {
+   width: 115px;
+   height: auto;
+}
+
+.d-flex[role="search"] {
+   width: 350px;
+   height: 50px;
+}
+
+.navbar-menus {
+   display: flex;
+   flex-direction: column;
+}
+.menu {
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+   margin: 4px 0px;
+   padding: 12px;
+}
+
+.material-icons,
+.material-icons-outlined {
+   display: flex;
+   font-size: 28px;
+}
+
+.menu .profile {
+   width: 25px;
+   height: 25px;
+   border-radius: 70%;
+}
+
+.menu .profile .profile-image {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.menu-profile .menu-text {
+   padding-left: 15px;
+}
+
+.menu-text {
+   padding-left: 12px;
+   font-weight: 400;
+}
+
+
+
+.main-board {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+   background-color: #FAFAFA;
+}
+
+.feed {
+   display: flex;
+   flex-direction: column;
+   width: 630px;
+   height: 1000px;
+   margin-top: 36px;
+}
+
+article {
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   width: 468px;
+   height: auto;
+   padding-bottom: 24px;
+   border-bottom: 0.666px rgb(200, 200, 200) solid;
+   background-color: #FAFAFA;
+   margin-bottom: 20px;
+}
+
+.article-header {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   padding-bottom: 3%;
+}
+
+.article-header2 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   flex-grow: 1;
+   /* 남은공간 전부 차지 */
+}
+
+.author-profile, .my-profile, .recoomend-profile{
+   text-align: left;
+   width: 50px;
+   height: 50px;
+   border-radius: 70%;
+   margin-right: 12px;
+   left: -5px;
+   top: -5px;
+}
+
+.author-profile-image, .my-profile-image, .recoomend-profile-image{
+   width: 100%;
+   /* 프로필 사진의 너비 */
+   height: 100%;
+   /* 프로필 사진의 높이 */
+   border-radius: 50%;
+   /* 테두리를 반원으로 만들어 동그랗게 표현 */
+   object-fit: cover;
+}
+
+
+.picture-container {
+   display: flex;
+   width: 468px;
+   min-height: 234px;
+   max-height: 585px;
+
+}
+
+.picture {
+   width: 100%;
+   object-fit: contain;
+   border-radius: 4px;
+   border-color:  rgb(219, 219, 219);
+   border-style: solid;
+   border-width: 0.66666px;
+}
+
+.dot {
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.article-body {
+   display: flex;
+   flex-direction: column;
+}
+
+.reaction-icons {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   width: 100%;
+   margin-top: 4px;
+   margin-bottom: 4px;
+   margin-left: 0px;
+}
+
+.reaction-icons1 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 3fr;
+}
+
+.reaction-icons1 .icon-reaction {
+   justify-items: start;
+   padding: 8px;
+   font-size: 28px;
+}
+
+.icon-reaction.icon-likes {
+   margin-left: -8px;
+}
+
+.icon-reaction.icon-bookmark {
+   margin-right: -10px;
+}
+
+.bookmark-icon {
+   display: flex;
+   justify-content: end;
+}
+
+.bookmark-icon .icon-reaction {
+   font-size: 28px;
+   padding: 8px;
+   padding-bottom: -12px;
+}
+
+.count-likes {
+   display: flex;
+   justify-content: left;
+
+}
+
+.main-area {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin-top: 4px;
+}
+
+.main-area1 {
+   display: flex;
+   flex-direction: row;
+   margin-top: 8px;
+}
+
+.main-area1 .username {
+   margin-right: 4px;
+}
+
+.main-area .see-more {
+   color: #9b9b9b;
+}
+
+.see-all-comment {
+   margin-top: 8px;
+   display: flex;
+   justify-content: left;
+   color: #9b9b9b;
+}
+
+.comment-container {
+   margin-top: 8px;
+   height: 18px;
+   flex-direction: row;
+   justify-content: stretch;
+}
+
+.comment {
+   width: 100%;
+   height: 30px;
+   padding: 0;
+   border: none;
+   outline: none;
+   resize: none;
+   background-color: rgba(var(--b3f, 250, 250, 250), 1);
+}
+
+.comment::placeholder {
+   color: #9b9b9b;
+}
+
+.main-board-side {
+   width: 383px;
+   padding-left: 64px;
+}
+
+.main-board-side1 {
+   display: flex;
+   flex-direction: column;
+   margin-top: 36px;
+}
+
+.my-account-container {
+   display: flex;
+   width: 100%;
+   flex-direction: row;
+   align-items: center;
+   justify-content: left;
+}
+
+.my-account-container .username,
+.recommend .username {
+   display: flex;
+   flex-grow: 1;
+}
+
+
+
+
+.transform-account,
+.recommend-follow {
+   color: #1EA1F7;
+   justify-content: flex-end;
+}
+
+.recommend-container {
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   margin-top: 20px;
+}
+
+.recommend-header {
+   display: flex;
+   flex-direction: row;
+}
+
+.recommend-header .recommend-for-me,.instagram-recommend {
+   flex-grow: 1;
+   text-align: left;
+   color: #737373;
+}
+
+.see-all-recommend {
+   color: black;
+}
+
+
+.recommends {
+   padding-top: 10px;
+
+}
+
+.recommend {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 12px 0px;
+   width: 315px;
+   height: 74px;
+}
+
+.recommend-username-container {
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   text-align: left;
+   flex-grow: 1;
+}

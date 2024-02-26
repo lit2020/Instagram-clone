@@ -1,0 +1,267 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <!-- google icon -->
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Filled|Material+Icons+Rounded|Material+Icons+Sharp|Material+Icons+Two+Tone"
+    rel="stylesheet">
+  <link href="../static/css/home.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png">
+      </a>
+      <!--
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <-->
+      <div class="navbar-menus1">
+        <div class="menu menu-home">
+          <span class="material-icons">home</span>
+          <div class="menu-text">홈</div>
+        </div>
+        <div class="menu menu-search">
+          <span class="material-icons-outlined">search</span>
+          <div class="menu-text">검색</div>
+        </div>
+        <div class="menu menu-explore">
+          <span class="material-icons-outlined">explore</span>
+          <div class="menu-text">탐색 탭</div>
+        </div>
+        <div class="menu menu-reels">
+          <span class="material-icons-outlined">movie</span>
+          <div class="menu-text">릴스</div>
+        </div>
+        <div class="menu menu-message">
+          <span class="material-icons-outlined">send</span>
+          <div class="menu-text">메시지</div>
+        </div>
+        <div class="menu menu-notification">
+          <span class="material-icons-outlined">favorite_border</span>
+          <div class="menu-text">알림</div>
+        </div>
+        <div class="menu menu-making">
+          <span class="material-icons-outlined">add_box</span>
+          <div class="menu-text">만들기</div>
+        </div>
+        <div class="menu menu-profile">
+          <div class="profile">
+            <img class="profile-image"
+              src="https://i.pinimg.com/736x/4a/4d/25/4a4d25bef5992b6a8d5789beac5abf3f.jpg">
+          </div>
+          <div class="menu-text">프로필</div>
+        </div>
+        <div class="menu menu-see-more">
+          <span class="material-icons-outlined">density_medium</span>
+          <div class="menu-text">더 보기</div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+  <div class="main-board">
+    <div class="feed">
+      <article class>
+        <div class="article-header">
+          <div class="author-profile">
+            <img class="author-profile-image"
+              src="https://i.pinimg.com/736x/4a/4d/25/4a4d25bef5992b6a8d5789beac5abf3f.jpg">
+          </div>
+          <div class="article-header2">
+            <div class="username">
+              <b>happy__10000__</b>
+            </div>
+            <div class="dot">
+              <span>•</span>
+            </div>
+            <div class="date">
+              <span>6일</span>
+            </div>
+          </div>
+          <div class="options">
+            <span>&#x2022;&#x2022;&#x2022;</span>
+          </div>
+        </div>
+        <div class="picture-container">
+          <img class="picture"
+            src="https://i.namu.wiki/i/N2dMFG_N6K4r4oTUdSV00K-n0CheIui-iIjz0hBFSKzFIqOw8mdIhhaIE8i5-8ukVtRpBHmvzG0aFvalGGfnFtNjdBb3bVq1HqIGE5WfL_oLuz31Pc_qbMnKge7WvuHTkcLCTvA0inv_Q0WH3lnHhg.webp">
+        </div>
+        <div class="article-body">
+          <div class="reaction-icons">
+            <div class="reaction-icons1">
+              <span class="material-icons-outlined icon-reaction icon-likes">favorite_border</span>
+              <span class="material-icons-outlined icon-reaction icon-comment"> mode_comment</span>
+              <span class="material-icons-outlined icon-reaction icon-send">send</span>
+            </div>
+            <div class="bookmark-icon">
+              <span class="material-icons-outlined icon-reaction icon-bookmark">bookmark_border</span>
+            </div>
+          </div>
+          <section class="count-likes">
+            <b>좋아요 3044개</b>
+          </section>
+          <div class="main-area">
+            <div class="main-area1">
+              <div class="username">
+                <b>happy__10000__</b>
+              </div>
+              <div class="main-text">
+                피카피카피카츄
+              </div>
+            </div>
+            <div class="see-more">
+              <span>... 더보기</span>
+            </div>
+          </div>
+          <div class="see-all-comment">
+            <span>댓글 273개 모두 보기</span>
+          </div>
+          <div class="comment-container">
+            <form class="comment-form">
+              <textarea class="comment text-placeholder" placeholder="댓글 달기..."></textarea>
+            </form>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="main-board-side">
+      <div class="main-board-side1">
+        <div class="my-account-container">
+          <div class="my-profile">
+            <img class="my-profile-image"
+              src="https://i.pinimg.com/736x/4a/4d/25/4a4d25bef5992b6a8d5789beac5abf3f.jpg">
+          </div>
+          <div class="username">
+            <b>happy__10000__</b>
+          </div>
+          <div class="transform-account">
+            <b>전환</b>
+          </div>
+        </div>
+        <div class="recommend-container">
+          <div class="recommend-header">
+            <div class="recommend-for-me">
+              <span>회원님을 위한 추천</span>
+            </div>
+            <div class="see-all-recommend">
+              <span>모두보기</span>
+            </div>
+          </div>
+          <div class="recommends">
+            <div class=recommend>
+              <div class="author-profile">
+                <img class="author-profile-image"
+                  src="https://i.pinimg.com/736x/4a/4d/25/4a4d25bef5992b6a8d5789beac5abf3f.jpg">
+              </div>
+              <div class="recommend-username-container">
+                <div class="username">
+                  <b>happy__10001__</b>
+                </div>
+                <div class="text instagram-recommend">
+                  <span>instagram 추천</span>
+                </div>
+              </div>
+              <div class="recommend-follow">
+                <b>팔로우</b>
+              </div>
+            </div>
+            <div class=recommend>
+              <div class="author-profile">
+                <img class="author-profile-image"
+                  src="https://i.pinimg.com/736x/4a/4d/25/4a4d25bef5992b6a8d5789beac5abf3f.jpg">
+              </div>
+              <div class="recommend-username-container">
+                <div class="username">
+                  <b>happy__10001__</b>
+                </div>
+                <div class="text instagram-recommend">
+                  <span>instagram 추천</span>
+                </div>
+              </div>
+              <div class="recommend-follow">
+                <b>팔로우</b>
+              </div>
+            </div>
+            <div class=recommend>
+              <div class="author-profile">
+                <img class="author-profile-image"
+                  src="https://i.pinimg.com/736x/4a/4d/25/4a4d25bef5992b6a8d5789beac5abf3f.jpg">
+              </div>
+              <div class="recommend-username-container">
+                <div class="username">
+                  <b>happy__10001__</b>
+                </div>
+                <div class="text instagram-recommend">
+                  <span>instagram 추천</span>
+                </div>
+              </div>
+              <div class="recommend-follow">
+                <b>팔로우</b>
+              </div>
+            </div>
+            <div class=recommend>
+              <div class="author-profile">
+                <img class="author-profile-image"
+                  src="https://i.pinimg.com/736x/4a/4d/25/4a4d25bef5992b6a8d5789beac5abf3f.jpg">
+              </div>
+              <div class="recommend-username-container">
+                <div class="username">
+                  <b>happy__10001__</b>
+                </div>
+                <div class="text instagram-recommend">
+                  <span>instagram 추천</span>
+                </div>
+              </div>
+              <div class="recommend-follow">
+                <b>팔로우</b>
+              </div>
+            </div>
+            <div class=recommend>
+              <div class="author-profile">
+                <img class="author-profile-image"
+                  src="https://i.pinimg.com/736x/4a/4d/25/4a4d25bef5992b6a8d5789beac5abf3f.jpg">
+              </div>
+              <div class="recommend-username-container">
+                <div class="username">
+                  <b>happy__10001__</b>
+                </div>
+                <div class="text instagram-recommend">
+                  <span>instagram 추천</span>
+                </div>
+              </div>
+              <div class="recommend-follow">
+                <b>팔로우</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

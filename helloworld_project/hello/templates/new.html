@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> blog.me </title>
+   </head>
+   <body>
+      <!-- create 뷰로 포스트 전송-->
+      <form action="{% url 'create' %}" method="post">
+         {% csrf_token %}
+         <div>
+            <label for="title">Title</label>
+            <label for="password">비밀번호</label>
+            <input type="text" name="password" id="password" maxlength=8><br>
+            <input type="text" name="title" id="title" maxlength=30>
+         </div>
+         <div>
+            <label for="content">content</label><br>
+            <textarea name="body" id="body" cols="50" rows="20"></textarea>
+         </div>
+         <input type="submit" value="POST">
+      </form>
+   </body>
+</html>
